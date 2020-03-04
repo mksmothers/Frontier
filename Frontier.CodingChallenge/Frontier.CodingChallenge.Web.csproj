@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>29cbc94e-a162-4d21-9074-a1d2e4d24a53</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fronteir.CodingChallenge.Models\Frontier.CodingChallenge.Models.csproj" />
+    <ProjectReference Include="..\Frontier.CodingChallenge.Interfaces\Frontier.CodingChallenge.Interfaces.csproj" />
+    <ProjectReference Include="..\Frontier.CodingChallenge.Services\Frontier.CodingChallenge.Services.csproj" />
+  </ItemGroup>
+
+</Project>

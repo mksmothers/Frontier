@@ -1,0 +1,3 @@
+C:\_dev\Frontier.CodingChallenge\Frontier.CodingChallenge\obj\Debug\netcoreapp2.2\Frontier.CodingChallenge.csproj.CoreCompileInputs.cache
+C:\_dev\Frontier.CodingChallenge\Frontier.CodingChallenge\obj\Debug\netcoreapp2.2\Frontier.CodingChallenge.AssemblyInfoInputs.cache
+C:\_dev\Frontier.CodingChallenge\Frontier.CodingChallenge\obj\Debug\netcoreapp2.2\Frontier.CodingChallenge.AssemblyInfo.cs
